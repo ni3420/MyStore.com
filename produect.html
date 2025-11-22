@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+     <nav>
+
+        <button id="menu-btn" class="menu-btn"  >
+  <i class="fa-solid fa-bars" class="menu-btn"></i>
+</button>
+    <div class="logo">MyShop</div>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="produect.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="cart">🛒</div>
+    <span id="cart-icon">0</span>
+  </nav>
+
+   
+   <section class="filters">
+        <h3>Filter Products</h3>
+        <div class="filter-controls">
+
+            <div class="filter-item">
+                <label for="price">Price Range:</label>
+                <select id="price">
+                    <option value="all">All</option>
+                    <option value="0-10000">Below ₹10,000</option>
+                    <option value="10000-20000">₹10,000 – ₹20,000</option>
+                    <option value="2000-5000">₹20,00 – ₹50,00</option>
+                    <option value="50000-100000">₹50,000 – ₹1,00,000</option>
+                </select>
+            </div>
+
+            <button id="applyFilters" >Apply Filters</button>
+        </div>
+   </section>
+
+   
+   <section class="product-list">
+
+        
+
+    </section>
+    <footer class="footer">
+
+    <div class="footer-box contact">
+        <h3>Contact Us</h3>
+        <p>Email: support@example.com</p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Address: Mumbai, India</p>
+    </div>
+
+    <div class="footer-box newsletter">
+        <h3>Newsletter</h3>
+        <p>Subscribe for updates & offers</p>
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+
+    <div class="footer-box social">
+        <h3>Follow Us</h3>
+        <div class="icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+
+</footer>
+
+<section class="cart-slider" id="cart-slider">
+
+    <div class="cart-header">
+        <h2>Your Cart</h2>
+        <button id="close-cart" class="close-btn">×</button>
+    </div>
+
+    <div class="cart-items">
+<!-- 
+        <div class="cart-item">
+            <img src="img/product1.jpg" alt="">
+            <div class="details">
+                <p>Smartphone Model A</p>
+                <span>₹14,999</span>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="img/product2.jpg" alt="">
+            <div class="details">
+                <p>Wireless Headphones</p>
+                <span>₹3,299</span>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="img/product3.jpg" alt="">
+            <div class="details">
+                <p>Bluetooth Speaker</p>
+                <span>₹1,799</span>
+            </div>
+        </div> -->
+
+    </div>
+
+    <div class="cart-footer">
+        <p class="total"></p>
+        <button class="checkout-btn">Checkout</button>
+    </div>
+
+</section>
+
+
+<section class="menu" id="menu-slider">
+    <div class="menu-header">
+        <h2>Your Menu</h2>
+    </div>
+
+    <div class="menu-box">
+        <a href="index.html">Home</a>
+        <a href="produect.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</section>
+<script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyStore.com</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <nav>
+ <button id="menu-btn" class="menu-btn"  >
+  <i class="fa-solid fa-bars" class="menu-btn"></i>
+</button>
+   
+    <div class="logo">MyShop</div>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="produect.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="cart">🛒</div>
+    <span id="cart-icon">0</span>
+  </nav>
+  
+   <section class="poster">
+    
+    
+    <div class="poster-text">
+        <p>High-Quality Electrical Products</p>
+    
+    <h1>Reliable & Efficient Power Solutions</h1>
+    <p>Discover our range of durable and energy-efficient electrical products designed to deliver safe<br> performance and long-lasting reliability for homes, offices, and industrial use.</p>
+    <button><a href="produect.html">Expolre Produect</a></button>
+    </div>
+    <div class="poster-img">
+                <img src="All-IMAGES/poster1.png" alt="Electrical Product">
+    </div>
+    
+</section>
+<section class="home-product">
+    <div class="box">
+        <img src="All-IMAGES/item2.png" alt="">
+        <h3>Electrical Product 1</h3>
+        <p>Durable and energy-efficient electrical item.</p>
+        <button><a href="#product-list">Buy Now</a></button>
+    </div>
+
+    <div class="box">
+        <img src="All-IMAGES/item3.png" alt="">
+        <h3>Electrical Product 2</h3>
+        <p>High-quality performance with long lifespan.</p>
+        <button><a href="#product-list">Buy Now</a></button>
+    </div>
+
+    <div class="box">
+        <img src="All-IMAGES/item1.png" alt="">
+        <h3>Electrical Product 3</h3>
+        <p>Reliable and safe for home and industry use.</p>
+        <button><a href="#product-list">Buy Now</a></button>
+    </div>
+</section>
+<section class="home-service">
+    <div class="box">
+        <i class="fa-solid fa-truck-fast"></i>
+        <h3>Fast Shipping</h3>
+        <p>Quick and reliable delivery to your doorstep.</p>
+    </div>
+
+    <div class="box">
+        <i class="fa-solid fa-badge-check"></i>
+        <h3>Quality Guarantee</h3>
+        <p>All products tested and certified for safety.</p>
+    </div>
+
+    <div class="box">
+        <i class="fa-solid fa-hand-holding-dollar"></i>
+        <h3>Affordable Pricing</h3>
+        <p>Best prices with premium quality.</p>
+    </div>
+
+    <div class="box">
+        <i class="fa-solid fa-headset"></i>
+        <h3>24/7 Support</h3>
+        <p>Customer support available anytime.</p>
+    </div>
+</section>
+<h1>Checkout The Produect</h1>
+<section class="product-list" id="product-list">
+
+    <!-- <div class="box">
+        <img src="img/product1.jpg" alt="Smartphone Model A">
+        <div class="info">
+            <h4 class="name">Smartphone Model A</h4>
+            <p class="desc">6.5&quot; AMOLED, 8GB RAM, 128GB storage. Fast charging & great camera.</p>
+            <div class="meta">
+                <div class="rating">
+                    <span>4.5</span>
+                    <span class="stars">★★★★☆</span>
+                </div>
+                <div class="price">
+                    <span class="current">₹14,999</span>
+                    <span class="old">₹19,999</span>
+                </div>
+            </div>
+            <button class="btn">Add to Cart</button>
+        </div>
+    </div> -->
+<!-- 
+    <div class="box">
+        <img src="img/product2.jpg" alt="Wireless Headphones B">
+        <div class="info">
+            <h4 class="name">Wireless Headphones B</h4>
+            <p class="desc">Noise-cancelling, 30h battery life, comfortable over-ear design.</p>
+            <div class="meta">
+                <div class="rating">
+                    <span>4.2</span>
+                    <span class="stars">★★★★☆</span>
+                </div>
+                <div class="price">
+                    <span class="current">₹3,299</span>
+                    <span class="old">₹4,199</span>
+                </div>
+            </div>
+            <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="img/product3.jpg" alt="Bluetooth Speaker C">
+        <div class="info">
+            <h4 class="name">Bluetooth Speaker C</h4>
+            <p class="desc">Portable, waterproof speaker with stereo bass.</p>
+            <div class="meta">
+                <div class="rating">
+                    <span>4.6</span>
+                    <span class="stars">★★★★★</span>
+                </div>
+                <div class="price">
+                    <span class="current">₹1,799</span>
+                    <span class="old">₹2,299</span>
+                </div>
+            </div>
+            <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="img/product4.jpg" alt="Fast Charger D">
+        <div class="info">
+            <h4 class="name">Fast Charger D</h4>
+            <p class="desc">65W GaN charger, dual USB-C, compact & safe.</p>
+            <div class="meta">
+                <div class="rating">
+                    <span>4.4</span>
+                    <span class="stars">★★★★☆</span>
+                </div>
+                <div class="price">
+                    <span class="current">₹1,199</span>
+                    <span class="old">₹1,499</span>
+                </div>
+            </div>
+            <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="img/product5.jpg" alt="Smartwatch E">
+        <div class="info">
+            <h4 class="name">Smartwatch E</h4>
+            <p class="desc">Heart-rate & SpO₂ tracking, GPS, 7-day battery.</p>
+            <div class="meta">
+                <div class="rating">
+                    <span>4.0</span>
+                    <span class="stars">★★★★☆</span>
+                </div>
+                <div class="price">
+                    <span class="current">₹4,499</span>
+                    <span class="old">₹5,499</span>
+                </div>
+            </div>
+            <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="img/product6.jpg" alt="Earbuds F">
+        <div class="info">
+            <h4 class="name">Earbuds F</h4>
+            <p class="desc">Low-latency mode, deep bass, compact charging case.</p>
+            <div class="meta">
+                <div class="rating">
+                    <span>4.3</span>
+                    <span class="stars">★★★★☆</span>
+                </div>
+                <div class="price">
+                    <span class="current">₹2,099</span>
+                    <span class="old">₹2,699</span>
+                </div>
+            </div>
+            <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="img/product7.jpg" alt="Power Bank 20,000mAh">
+        <div class="info">
+            <h4 class="name">Power Bank 20,000mAh</h4>
+            <p class="desc">High-capacity, multi-port fast charging.</p>
+            <div class="meta">
+                <div class="rating">
+                    <span>4.1</span>
+                    <span class="stars">★★★★☆</span>
+                </div>
+                <div class="price">
+                    <span class="current">₹1,599</span>
+                    <span class="old">₹1,999</span>
+                </div>
+            </div>
+            <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="img/product8.jpg" alt="USB-C Durable Cable">
+        <div class="info">
+            <h4 class="name">USB-C Durable Cable</h4>
+            <p class="desc">2m braided cable, fast-charging support.</p>
+            <div class="meta">
+                <div class="rating">
+                    <span>4.7</span>
+                    <span class="stars">★★★★★</span>
+                </div>
+                <div class="price">
+                    <span class="current">₹399</span>
+                    <span class="old">₹499</span>
+                </div>
+            </div>
+            <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+    </div> -->
+
+</section>
+
+<section class="produect-reviews">
+
+    <div class="box">
+        <img src="All-IMAGES/user.png" class="profile" alt="Rohan">
+        <h4 class="name">Rohan</h4>
+        <p class="review">Great product! The quality is excellent and delivery was fast.</p>
+        <div class="rating">★★★★★</div>
+    </div>
+
+    <div class="box">
+        <img src="All-IMAGES/user2.png" class="profile" alt="Sneha">
+        <h4 class="name">Sneha</h4>
+        <p class="review">Value for money and works exactly as described.</p>
+        <div class="rating">★★★★☆</div>
+    </div>
+
+    <div class="box">
+        <img src="All-IMAGES/user.png"class="profile" alt="Amit">
+        <h4 class="name">Amit</h4>
+        <p class="review">Good build quality and reliable performance.</p>
+        <div class="rating">★★★★☆</div>
+    </div>
+
+    <div class="box">
+        <img src="All-IMAGES/user2.png" class="profile" alt="Priya">
+        <h4 class="name">Priya</h4>
+        <p class="review">Excellent customer service and durable product.</p>
+        <div class="rating">★★★★★</div>
+    </div>
+
+    <div class="box">
+        <img src="All-IMAGES/user.png" class="profile" alt="Karan">
+        <h4 class="name">Karan</h4>
+        <p class="review">Nice overall experience with safe packaging.</p>
+        <div class="rating">★★★★☆</div>
+    </div>
+
+</section>
+<footer class="footer">
+
+    <div class="footer-box contact">
+        <h3>Contact Us</h3>
+        <p>Email: support@example.com</p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Address: Mumbai, India</p>
+    </div>
+
+    <div class="footer-box newsletter">
+        <h3>Newsletter</h3>
+        <p>Subscribe for updates & offers</p>
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+
+    <div class="footer-box social">
+        <h3>Follow Us</h3>
+        <div class="icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+
+</footer>
+
+<section class="cart-slider" id="cart-slider">
+
+    <div class="cart-header">
+        <h2>Your Cart</h2>
+        <button id="close-cart" class="close-btn">×</button>
+    </div>
+
+    <div class="cart-items">
+<!-- 
+        <div class="cart-item">
+            <img src="img/product1.jpg" alt="">
+            <div class="details">
+                <p>Smartphone Model A</p>
+                <span>₹14,999</span>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="img/product2.jpg" alt="">
+            <div class="details">
+                <p>Wireless Headphones</p>
+                <span>₹3,299</span>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="img/product3.jpg" alt="">
+            <div class="details">
+                <p>Bluetooth Speaker</p>
+                <span>₹1,799</span>
+            </div>
+        </div> -->
+
+    </div>
+
+    <div class="cart-footer">
+        <p class="total"></p>
+        <button class="checkout-btn">Checkout</button>
+    </div>
+
+</section>
+
+<section class="menu" id="menu-slider">
+    <div class="menu-header">
+        <h2>Your Menu</h2>
+        <button id="menu-close">×</button>
+    </div>
+
+    <div class="menu-box">
+        <a href="index.html">Home</a>
+        <a href="produect.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</section>
+
+
+
+
+
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - MyShop</title>
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: #f4f6fc; color: #333; }
+
+    nav {
+      width: 100%;
+      background: #fff;
+      padding: 15px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    .logo { font-size: 1.6rem; font-weight: 600; }
+
+    .hero {
+      height: 350px;
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+
+      background-size: cover;
+      background-position: center;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .hero h1 { font-size: 3rem; margin-bottom: 10px; }
+    .hero p { font-size: 1.2rem; max-width: 700px; }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .about-box {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+      margin-bottom: 30px;
+    }
+
+    .about-box h2 { font-size: 2rem; margin-bottom: 10px; }
+    .about-box p { color: #555; line-height: 1.7; margin-bottom: 10px; }
+
+    .team-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .team-card {
+      background: #fff;
+      padding: 20px;
+      text-align: center;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+
+    .team-card img {
+      width: 110px;
+      height: 110px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .team-card h3 { font-size: 1.2rem; margin-bottom: 5px; }
+    .team-card p { font-size: 0.9rem; color: #777; }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #fff;
+      border-top: 1px solid #ddd;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <button id="menu-btn" class="menu-btn">
+      <i class="fa-solid fa-bars"></i>
+  </button>
+
+  <div class="logo">MyShop</div>
+
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="produect.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div class="cart">🛒</div>
+  <span id="cart-icon">0</span>
+</nav>
+
+<section class="hero">
+  <h1>About Us</h1>
+  <p>Your trusted destination for premium products, secure shopping, and fast delivery.</p>
+</section>
+
+<div class="container">
+
+  <div class="about-box">
+    <h2>Who We Are</h2>
+    <p>MyShop is a reliable online marketplace offering electronics, clothing, accessories, and home essentials. We focus on delivering quality products that our customers can trust.</p>
+    <p>Founded in 2024, our mission is to provide affordable pricing, fast delivery, and a smooth shopping experience.</p>
+  </div>
+
+  <div class="about-box">
+    <h2>Our Mission</h2>
+    <p>Our mission is to bring the best products at the best prices while ensuring customer satisfaction through great service and reliable delivery.</p>
+  </div>
+
+  <div class="about-box">
+    <h2>Our Vision</h2>
+    <p>We aim to become one of the most trusted and customer-friendly online shopping platforms across the country.</p>
+  </div>
+
+  <div class="about-box">
+    <h2>Meet Our Team</h2>
+
+    <div class="team-section">
+
+      <div class="team-card">
+        <img src="All-IMAGES/user.png" alt="">
+        <h3>Rahul Sharma</h3>
+        <p>Founder & CEO</p>
+      </div>
+
+      <div class="team-card">
+        <img src="All-IMAGES/user.png" alt="">
+        <h3>Pooja Verma</h3>
+        <p>Marketing Head</p>
+      </div>
+
+      <div class="team-card">
+        <img src="All-IMAGES/user.png" alt="">
+        <h3>Aman Kumar</h3>
+        <p>Product Manager</p>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+<footer>
+  © 2025 MyShop — All Rights Reserved
+</footer>
+
+  <section class="menu" id="menu-slider">
+    <div class="menu-header">
+        <h2>Your Menu</h2>
+    </div>
+
+    <div class="menu-box">
+        <a href="index.html">Home</a>
+        <a href="produect.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</section>
+
+<section class="cart-slider" id="cart-slider">
+
+    <div class="cart-header">
+        <h2>Your Cart</h2>
+        <button id="close-cart" class="close-btn">×</button>
+    </div>
+
+    <div class="cart-items">
+<!-- 
+        <div class="cart-item">
+            <img src="img/product1.jpg" alt="">
+            <div class="details">
+                <p>Smartphone Model A</p>
+                <span>₹14,999</span>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="img/product2.jpg" alt="">
+            <div class="details">
+                <p>Wireless Headphones</p>
+                <span>₹3,299</span>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="img/product3.jpg" alt="">
+            <div class="details">
+                <p>Bluetooth Speaker</p>
+                <span>₹1,799</span>
+            </div>
+        </div> -->
+
+    </div>
+
+    <div class="cart-footer">
+        <p class="total"></p>
+        <button class="checkout-btn">Checkout</button>
+    </div>
+
+</section>
+
+
+<script src="contact.js"></script>
+</body>
+</html>
