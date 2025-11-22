@@ -290,12 +290,18 @@ function showslider()
   
   const menu=document.querySelector(".menu-btn");
   const menuslider=document.querySelector(".menu");
+  const menuclose=document.querySelector("#menu-close")
 
   menu.addEventListener("click",(e)=>{
     console.log("hii");
-    menuslider.classList.toggle("open")
+    menuslider.classList.add("open")
     
+  });
+
+  menuclose.addEventListener("click",()=>{
+    menuslider.classList.remove("open");
   })
+
 }
 showslider();
 applyFilters.addEventListener("click", () => {

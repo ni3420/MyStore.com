@@ -64,6 +64,7 @@ nav {
     background-image: url("All-IMAGES/poster1\ \(2\).png");
     
 }
+
 button {
     background: #007bff;
     padding: 12px 20px;
@@ -271,6 +272,7 @@ button a {
     text-align: center;
     display: block;
   }
+  
   #img{
     width:60%;
     height: 70%;
@@ -552,7 +554,7 @@ html {
 .menu {
     position: fixed;
     top: 0;
-    right:-300px ;
+    right:-300px;
     display: none;
     width: 300px;
     height: 100%;
@@ -655,11 +657,15 @@ html {
         background-position: center;
         text-align: center;
     }
+    #poster-img{
+      width: 80%;
+    }
 
     .home-product, .product-list {
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
         padding: 15px;
+        
     }
 
     .product-list .box {
@@ -682,6 +688,13 @@ html {
     }
     .right {
         right: 0;
+    }
+    .menu{
+      width: 100%;
+      left: -100%;
+    }
+    .open{
+      left:0;
     }
 
     .home-product, .product-list {
